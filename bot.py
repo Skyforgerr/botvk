@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+﻿<<<<<<< Updated upstream
 import vk_api
 from vk_api.bot_longpoll import VkLongPoll, VkEventType
 
@@ -24,10 +24,10 @@ import vk_api, vk
 from vk_api.keyboard import VkKeyboard, VkKeyboardColor
 from vk_api.utils import get_random_id
 
-vk_session = vk_api.VkApi(token='#ВСТАВЬ СЮДА ТОКЕН ГРУППЫ СО ВСЕМИ РАЗРЕШЕНИЯМИ')
+vk_session = vk_api.VkApi(token='5681f33fa1a9e833372e21cae5c62cdddff34bbb0b18aca0f7ea069e9fc27a0ee08b94fe96d09305a8dcd')
 
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
-longpoll = VkBotLongPoll(vk_session, 'ID вашей группы без кавычек')
+longpoll = VkBotLongPoll(vk_session, '199739242')
 vk = vk_session.get_api()
 from vk_api.longpoll import VkLongPoll, VkEventType
 
